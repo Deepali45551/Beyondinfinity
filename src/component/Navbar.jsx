@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { toast } from "react-hot-toast";
-import { useCart } from "../pages/shop/CartContext";
+import { useCart } from "../Pages/shop/CartContext";
 
 import {
   FaChevronDown,
