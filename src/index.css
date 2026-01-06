@@ -1,0 +1,46 @@
+@import "tailwindcss";
+:root {
+  
+  --bodyFont: "Poppins", sans-serif;
+  --titleFont: "Tomorrow", sans-serif;
+  --transition: all 0.5s ease-in-out;
+  --transition-sec: all 1.8s ease-in-out;
+  --transition-third: all 2.2s ease-in-out;
+  /* Color styles */
+  --primaryColor: #ed2a00;
+  --titleColor: #ffffff;
+  --textColor: #474747;
+  --bodyColor: #000000;
+  --blackColor: #000000;
+  --whiteColor: #ffffff;
+  --menuColor: #000000;
+  --borderColor: #e6e6e6;
+  --borderColor2: #ffffff14;
+  --btnTextColor: #000000;
+  --btnTextHoverColor: var(--primaryColor);
+  --btnBgColor: var(--primaryColor);
+  --btnBgHoverColor: var(--primaryColor5);
+  --linkColor: var(--secondaryColor);
+  --linkHoverColor: var(--primaryColor);
+  --neutralColor0: #ffffff;
+  --neutralColor10: #fafafa;
+  --neutralColor20: #f5f5f6;
+  --neutralColor30: #ebebed;
+  --neutralColor40: #dfdfe1;
+  --neutralColor50: #c2c2c6;
+  --neutralColor60: #b3b3b8;
+  --neutralColor70: #a7a7ac;
+  --neutralColor80: #98999e;
+  --neutralColor90: #898a91;
+  --neutralColor100: #7b7b83;
+  --neutralColor200: #6c6d75;
+  --neutralColor300: #5d5e67;
+  --neutralColor400: #51525c;
+  --neutralColor500: #42434e;
+  --neutralColor600: #363742;
+  --neutralColor700: #252632;
+  --neutralColor800: #161725;
+  --neutralColor900: #0a0b19;
+  --neutralColor1000: #0d0d0d;
+}
+
