@@ -1,6 +1,6 @@
 import React from 'react'
 import AppRoutes from './Routes'
-import { CartProvider } from './pages/shop/CartContext'
+import { CartProvider } from './Pages/shop/CartContext'
 
 const App = () => {
   return (
