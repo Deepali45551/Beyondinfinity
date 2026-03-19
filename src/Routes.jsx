@@ -13,7 +13,7 @@ import Events from "./Pages/Events/Events.jsx";
 import EventSingleDefault from "./Pages/Events/EventSingleDefault";
 import EventSingleRSVP from "./Pages/Events/EventSingleRSVP";
 import EventSingleTicket from "./Pages/Events/EventSingleTicket";
-import Shop from "./pages/shop/Shop";
+import Shop from "./Pages/shop/Shop";
 import Outdoor from "./Pages/Events/Outdoor";
 import FeaturedProducts from "./component/FeaturedProducts";
 import OutdoorFeatures from "./component/OutdoorFeatures";
@@ -23,10 +23,10 @@ import EventSchedule from "./component/EventSchedule";
 import ObservatoryProject from "./component/ObservatoryProject";
 import Gallery from "./component/Gallery";
 import SpaceAgency from "./component/Home/SpaceAgency";
-import ShopSingle from "./pages/shop/ShopSingle";
-import ShopSingleExternal from "./pages/shop/ShopSingleExternal";
-import ShopSingleCollection from "./pages/shop/ShopSingleCollection";
-import WishList from "./pages/shop/WishList";
+import ShopSingle from "./Pages/shop/ShopSingle";
+import ShopSingleExternal from "./Pages/shop/ShopSingleExternal";
+import ShopSingleCollection from "./Pages/shop/ShopSingleCollection";
+import WishList from "./Pages/shop/WishList";
 
 import PortfolioOne from "./Pages/portfolio/PortfolioOne.jsx";
 import PortfolioSlider from "./Pages/portfolio/PortfolioSlider.jsx";
@@ -45,10 +45,10 @@ import BlogDetails from "./Pages/blog/BlogDetails.jsx";
 import AerospaceCompany from "./Pages/Events/AerospaceCompany.jsx";
 import FeaturedWork from "./component/FeaturedWork.jsx";
 import SpaceTourism from "./Pages/Events/SpaceTourism.jsx";
-import Cart from "./pages/shop/Cart.jsx";
-import Checkout from "./pages/shop/Checkout.jsx";
-import OrderCompleted from "./pages/shop/OrderCompleted.jsx";
-import MyAccount from "./pages/shop/MyAccount.jsx";
+import Cart from "./Pages/shop/Cart.jsx";
+import Checkout from "./Pages/shop/Checkout.jsx";
+import OrderCompleted from "./Pages/shop/OrderCompleted.jsx";
+import MyAccount from "./Pages/shop/MyAccount.jsx";
 import AboutUs from "./Pages/page/AboutUs.jsx";
 
 const AppRoutes = () => {
