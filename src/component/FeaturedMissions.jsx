@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { Play } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const missions = [
   {
@@ -82,12 +83,13 @@ const FeaturedMissions = () => {
           </p>
 
           {/* CTA button */}
-          <a
-            href="/services"
-            className="inline-block mt-8 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300"
-          >
-            Explore Our Services
-          </a>
+          <Link
+  to="/service-details"
+  className="inline-block mt-8 px-8 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300"
+>
+  Explore Our Services
+</Link>
+
         </div>
       </div>
 
